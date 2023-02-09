@@ -1,8 +1,12 @@
 import React from 'react';
+import Logo from '../Components/Logo';
+import Navigation from '../Components/Navigation';
 
 const About = () => {
   return (
     <div>
+      <Logo />
+      <Navigation />
       <h1>À propos</h1>
       <br />
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, hic blanditiis fugit culpa tempora ipsam quis facilis dolorum harum labore placeat repellendus similique, reiciendis voluptas nulla quidem unde amet, quisquam distinctio voluptates quam fugiat ullam adipisci. Repudiandae expedita, iure eligendi id corporis dicta minus unde autem exercitationem dolores, modi dolore beatae, eos ut perspiciatis quis! Reiciendis dolore eius consectetur quidem, dolor enim quod autem quos laboriosam magni corporis temporibus optio dicta ipsa sint nemo quo aliquam dolorem architecto sunt dignissimos. Enim, iusto dolorem? Labore cumque facilis commodi qui sed, pariatur amet quidem officiis enim saepe odio optio modi voluptate maxime?</p>
