@@ -12,7 +12,7 @@ npm i -g `json server`
 
 ### Faire tourner le back json-server:
 
-# Écrire dans le fichier package.json, dans script :
+### Écrire dans le fichier package.json, dans script :
 
 ```
 "server": "json-server --w src/assets/db.json --port 3004"
