@@ -7,7 +7,7 @@ npm i
 ### Installer un JSON-SERVER :
 
 ```
-npm i -g `json server`
+npm i -g `json server` ou npm i `json server`
 ```
 
 ### Faire tourner le back json-server:
