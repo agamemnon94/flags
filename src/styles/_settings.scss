@@ -24,7 +24,8 @@ $dark: #333;
 }
 
 body {
-  background: $white;
+  background: radial-gradient($color-2, $dark);
+  background-size: 100% 300%;
   font-family: $font-1;
   // @include verticalCenter;
 }

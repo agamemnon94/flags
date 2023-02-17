@@ -33,7 +33,6 @@ const Article = ({ article }) => {
   }
 
   const handleDelete = () => {
-    console.log("Article supprimé");
     axios.delete("http://localhost:3004/articles/" + article.id);
     window.location.reload()
 
